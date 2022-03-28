@@ -1,0 +1,71 @@
+[{
+  "id": 1,
+  "metric": "Length",
+  "convertFrom": "Millimetre",
+  "convertTo": "Kilometre",
+  "formula": "%s/1e+6"
+},
+{
+  "id": 2,
+  "metric": "Length",
+  "convertFrom": "Kilometre",
+  "convertTo": "Millimetre",
+  "formula": "%s*1e+6"
+},
+{
+  "id": 3,
+  "metric": "Temperature",
+  "convertFrom": "Celsius",
+  "convertTo": "Fahrenheit",
+  "formula": "(%s*9/5)+32"
+},
+{
+  "id": 4,
+  "metric": "Temperature",
+  "convertFrom": "Fahrenheit",
+  "convertTo": "Celsius",
+  "formula": "(%s-32)*5/9"
+},
+{
+  "id": 5,
+  "metric": "Area",
+  "convertFrom": "Square meter",
+  "convertTo": "Square kilometer",
+  "formula": "%s/1e+6"
+},
+{
+  "id": 6,
+  "metric": "Area",
+  "convertFrom": "Square kilometer",
+  "convertTo": "Square meter",
+  "formula": "%s*1e+6"
+},
+{
+  "id": 7,
+  "metric": "Volume",
+  "convertFrom": "Liter",
+  "convertTo": "Milliliter",
+  "formula": "%s*1000"
+},
+{
+  "id": 8,
+  "metric": "Volume",
+  "convertFrom": "Milliliter",
+  "convertTo": "Liter",
+  "formula": "%s/1000"
+},
+{
+  "id": 9,
+  "metric": "Time",
+  "convertFrom": "Second",
+  "convertTo": "Minute",
+  "formula": "%s/60"
+},
+{
+  "id": 10,
+  "metric": "Time",
+  "convertFrom": "Minute",
+  "convertTo": "Second",
+  "formula": "%s*60"
+}]
+
